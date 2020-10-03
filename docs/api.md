@@ -292,7 +292,7 @@ if(<os>.social.isPublic(socialPubKey)){
 Checks if a profile is in our favorites, returns boolean true or false.
 
 ```javascript
-if(<os>.social.isFavoite(socialPubKey)){
+if(<os>.social.isFavorite(socialPubKey)){
   console.log("Hello Universe");
 };
 ```
@@ -303,7 +303,7 @@ if(<os>.social.isFavoite(socialPubKey)){
 Checks if a profile is a requested favorite, returns boolean true or false.
 
 ```javascript
-if(<os>.social.isRequestedFavoite(socialPubKey)){
+if(<os>.social.isRequestedFavorite(socialPubKey)){
   console.log("Hello Universe");
 };
 ```
