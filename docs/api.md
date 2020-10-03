@@ -286,7 +286,7 @@ if(<os>.social.isPublic(socialPubKey)){
 };
 ```
 
-### social.isFavoite(socialPubKey)
+### social.isFavorite(socialPubKey)
 [![Social](https://img.shields.io/badge/process-Social-green)](quest-social-js) [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js) 
 
 Checks if a profile is in our favorites, returns boolean true or false.
@@ -297,7 +297,7 @@ if(<os>.social.isFavoite(socialPubKey)){
 };
 ```
 
-### social.isRequestedFavoite(socialPubKey)
+### social.isRequestedFavorite(socialPubKey)
 [![Social](https://img.shields.io/badge/process-Social-green)](quest-social-js) [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js) 
 
 Checks if a profile is a requested favorite, returns boolean true or false.
