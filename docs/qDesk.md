@@ -5,6 +5,9 @@
 
 ![Screenshot](https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.3/doc/images/0.9.3.png?raw=true)
 
+# Attention
+If you're experiencing connectivity issues, on the app you can try using different star node configurations in Settings > IPFS. The web demo unfortunately intermittently breaks because it doesn't have that feature yet.
+
 # Description
 qDesk is an example app for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules like [qDesk Messages](qd-messages-ts) and [qDesk Social](qd-social-ts), as well as the upcoming [qDesk Markets](qd-market-ts), [qDesk News](qd-news-ts) and [qDesk Games](qd-games-ts).
 
