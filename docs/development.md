@@ -87,4 +87,3 @@ Keep in mind that the bundled web application is >14MB alone without assets, ple
 We added an example ```swarm.json``` to the ```src/app``` folder with an example node to make reproduction easier, but we strongly recommend to use our [Quest CLI](quest-cli) to test and build the app.
 
 Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/to/quest-cli/index.js` from any folder on your system. It's much nicer!
-
