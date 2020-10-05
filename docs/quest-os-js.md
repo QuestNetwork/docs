@@ -35,6 +35,9 @@ Check out our [API Reference](api.md) to get started!
 - Easier Access
 - Offer "LocalStorage" As A Storage Container On The Web To Stay Signed In
 
+**0.9.4**
+Change Peer Configuration in browser, Electron and on NodeJS
+
 # Roadmap
 
 **0.9.4**

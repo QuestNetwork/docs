@@ -50,12 +50,14 @@ qDesk allows to lazy load modules.
 - [qDesk Messages](qd-messages-ts)
 - [qDesk Social](quest-social-js)
 
-# Roadmap
 
 **0.9.4**
 - Module Upgrades
 - Native Audio/Video
-- Complies with privacy laws
+- Additional Peering, option to pull from GitHub.
+- Change Swarm Peers In The Browser
+
+# Roadmap
 
 **0.9.6**
 - Encrypt Settings/Message History Files
@@ -80,9 +82,9 @@ qDesk allows to lazy load modules.
 - Fork into [Vibenarium](https://github.com/Vibenarium/vibenarium-platform)
 - Dynamic Swarm Peer List Also On The Web (add and remove bootstrap peers)
 - Third Party Dependencies Audited, Security Issues Fixed
+- Complies with privacy laws
 - Unlimited Custom Emojis
 - Quest Network Calendar App Plugin (for shared calendars)
-
 **2.0.0**
 - Ethereum Payment Integration Finalized
 
