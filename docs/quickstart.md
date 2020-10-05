@@ -5,7 +5,7 @@
 
 ![Screenshot](https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.3/doc/images/0.9.3.png?raw=true)
 
->In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](#star-node-configuration) in Settings > IPFS. The web demo unfortunately intermittently breaks because it doesn't have that feature yet.
+>In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qDesk#troubleshooting) in Settings > IPFS. The web demo unfortunately intermittently breaks because it doesn't have that feature yet.
 
 We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules like  [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts), as well as the upcoming  [qD Markets](qd-market-ts), [qD News](qd-news-ts) and [qD Games](qd-games-ts).
 
@@ -39,5 +39,4 @@ See our [Developer](development.md) section to start using and extending the Que
 
 # Troubleshooting
 
-## Star Node Configuration
-In qDesk ``^0.9.4`` go to ``Settings > IPFS`` and either download a swarm peer list from GitHub (https://github.com/QuestNetwork/qDesk/blob/0.9.4/src/app/swarm.json) or enter your own.
+In case of errors or faults, please see the [Troubleshooting](qDesk#troubleshooting) section for qDesk.
