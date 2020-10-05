@@ -98,5 +98,5 @@ qDesk allows to lazy load modules.
 # Troubleshooting 
 
 ## Star Node Configuration
-In qDesk ``^0.9.4`` go to ``Settings > IPFS`` and either download a swarm peer list from GitHub (https://github.com/QuestNetwork/qDesk/blob/0.9.4/src/app/swarm.json) or enter your own.
+In qDesk ``^0.9.4`` go to ``Settings > IPFS`` and either download an example swarm peer list from GitHub (https://github.com/QuestNetwork/qDesk/blob/0.9.4/src/app/swarm.json) or enter your own.
 
