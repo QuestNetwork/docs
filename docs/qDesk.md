@@ -87,6 +87,7 @@ qDesk allows to lazy load modules.
 - Complies with privacy laws
 - Unlimited Custom Emojis
 - Quest Network Calendar App Plugin (for shared calendars)
+
 **2.0.0**
 - Ethereum Payment Integration Finalized
 
