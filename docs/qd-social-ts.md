@@ -8,7 +8,7 @@ qDesk Social is a module for qDesk. It's accessible across qDesk, you can use it
 
 It's not all qDesk though, qDesk Social is a protocol as well and if you are using [Quest OS](quest-os-js) in your applications, you can even use the underlying channels and data in your own application by booting with [Quest Social JS](quest-social-js).
 
-qDesk Social offers the ability to share posts and information about yourself and make connections with other people. You can have a public profile, granular privacy settings or invite only. qDesk Social is a module for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [qDesk](qDesk), our window platform based on [Angular10](https://angular.io/).
+qDesk Social offers the ability to share posts and information about yourself and make connections with other people. You can have a public profile, granular privacy settings or invite only. qDesk Social is a module for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
@@ -38,6 +38,7 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 # Roadmap
 
 **0.9.4**
+- Comments/Replies On Posts
 - Report Posts & Users
 - Ban Users
 
@@ -45,7 +46,6 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Share Private Profiles 
 - Custom Timeline Search
 - Native Followers
-- Comments/Replies On Posts
 - Connect To Twitter
 
 **0.9.6**

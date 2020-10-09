@@ -7,7 +7,7 @@ Unified API for the QuestNetwork dStack. Use with our example app: [qDesk](qDesk
 
 Main strategy is to create a Quest Network / IPFS / Ethereum interface that even kids can easily understand.
 
-Check out our [QD Messages Module](qd-messages-ts) and the [Awesome Quest Network](awesome) list for more examples.
+Quest OS offers encrypted channels, persistent storage, peer management, timelines, posts and more. It it used to load add-on modules, like [quest-coral-js](quest-coral-js) to use [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), or [quest-dolphin-js](quest-dolphin-js) to use [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/).
 
 # Installation & Usage
 Check out our [API Reference](api.md) to get started!
