@@ -75,6 +75,7 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Scroll Bottom Fix
 - Search for participants from qDesk Social
 - Pair with participants by QR Code
+- See who's online
 
 # Roadmap
 

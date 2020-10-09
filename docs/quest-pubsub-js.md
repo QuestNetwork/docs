@@ -24,3 +24,6 @@ Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/t
 
 **0.9.3**
 - Added social types
+
+**0.9.4**
+- Online Status
