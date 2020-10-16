@@ -2,6 +2,18 @@
 
 Try our example application live in your browser. We recommend Chrome & Firefox.
 
+**0.9.4**
+
+https://gateway.pinata.cloud/ipfs/QmZNvMbTPCEW1vebsEc5L2dx18PeYCKgwP5oMCVREkmr3p/
+
+https://cloudflare-ipfs.com/ipfs/QmZNvMbTPCEW1vebsEc5L2dx18PeYCKgwP5oMCVREkmr3p/
+
+https://ipfs.eternum.io/ipfs/QmZNvMbTPCEW1vebsEc5L2dx18PeYCKgwP5oMCVREkmr3p/
+
+https://ipfs.io/ipfs/QmZNvMbTPCEW1vebsEc5L2dx18PeYCKgwP5oMCVREkmr3p/
+
+http://ipfs.infura.io/ipfs/QmZNvMbTPCEW1vebsEc5L2dx18PeYCKgwP5oMCVREkmr3p/
+
 **0.9.3-rc1**
 
 <img src='https://github.com/QuestNetwork/qDesk/raw/0.9.3-rc1/doc/images/pinatalink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qDesk/raw/0.9.3-rc1/doc/images/cloudflarelink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qDesk/raw/0.9.3-rc1/doc/images/ipfsiolink.png?raw=true' width=25%>
