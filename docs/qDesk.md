@@ -5,7 +5,7 @@
 
 ![Screenshot](https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.3/doc/images/0.9.3.png?raw=true)
 
->In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](#troubleshooting) in Settings > IPFS. The web demo unfortunately intermittently breaks because it doesn't have that feature yet.
+>In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](#troubleshooting) in Settings > IPFS.
 
 # Description
 qDesk is an example app for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules like [qDesk Messages](qd-messages-ts) and [qDesk Social](qd-social-ts), as well as the upcoming [qDesk Markets](qd-market-ts), [qDesk News](qd-news-ts) and [qDesk Games](qd-games-ts).
@@ -52,20 +52,22 @@ qDesk allows to lazy load modules.
 - [qDesk Messages](qd-messages-ts)
 - [qDesk Social](quest-social-js)
 
-
 **0.9.4**
-- Module Upgrades
-- Native Audio/Video
-- Additional Peering, option to pull from GitHub.
+- Encrypt Settings/Message History Files
 - Change Swarm Peers In The Browser
+- [Quest Network Coral Process](quest-coral-js)
+- Additional Peering, option to pull from GitHub.
+- Module Upgrades
 
 # Roadmap
 
+**0.9.5**
+- More Message Types And Inline Previews
+- Native Audio/Video
+
 **0.9.6**
-- Encrypt Settings/Message History Files
 - [qDesk Markets](qd-market-ts)
 - [qDesk News](qd-news-ts)
-- [Quest Network Coral Process](quest-coral-js)
 
 **0.9.7**
 - Add Custom Themes By Pasting CSS Into The Built-In Theme Editor

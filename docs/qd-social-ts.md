@@ -34,17 +34,19 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Search For Social Profiles Received From All Connected Modules
 - Native Posts
 - Profile & Timeline Search
+- Comments/Replies On Posts
+- Favorite List
+- Improved Timeline Propagation 
+- Replies modularized
+- Uses IPFS merkle-trees now
 
 # Roadmap
 
-**0.9.4**
-- Comments/Replies On Posts
+**0.9.5**
 - Report Posts & Users
 - Ban Users
-
-**0.9.5**
 - Share Private Profiles 
-- Custom Timeline Search
+- Custom Timeline Search Algorithms
 - Native Followers
 - Connect To Twitter
 

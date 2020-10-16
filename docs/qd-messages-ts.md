@@ -10,8 +10,6 @@ qDesk Messages is on track to become the first fully featured, cross-platform, p
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well. 
 
-We're planning to become for messaging what [Atom](https://atom.io) is for writing code.
-
 Full IRC & Matrix integration is planned as well.
 
 [qDesk](qDesk) works in the browser, as an Electron on Windows, Mac and Linux and Android using Cordova.
@@ -71,19 +69,18 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Private Encrypted P2P Channels (End-To-End, AES-256-CBC, Shared Via 4096 Bit OAEP)
 
 **0.9.4**
-- Smart Line Breaks
 - Scroll Bottom Fix
 - Search for participants from qDesk Social
 - Pair with participants by QR Code
-- See who's online
+- Click aliases to open stations.
+- Online/Offline Status
+- Improved Participant List
+- Improved Favorites
 
 # Roadmap
 
-**0.9.4**
-- Increase Security For Private P2P Channels
-- Magic Folders 
-- Rename Channel/Favorite Folders
-- [qDesk Social](qd-social-ts) now allows to share private profiles, so you can have direct conversations with people who have shared their private profiles with you.
+**0.9.5**
+[qDesk Social](qd-social-ts) now allows to share private stations, so you can have direct conversations with people who have shared their private stations with you.
 - Channel Folders are now sorted alphabetically by default
 - Sidebars resizable
 - Magic Folder Explorer/Guide On Main (Delete Folders Also Called From Icon Click There)
@@ -92,8 +89,9 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Encrypted Audio/Video Group Channels (Encryption Can Be Turned Off For Higher Quality)
 - Ignore/Mute Channel Participants Locally
 - Ban Channel Participants By Generating New Channel Names (ask representatives for new name, refuse banned participants
-
-**0.9.5**
+- Increase Security For Private P2P Channels
+- Magic Folders 
+- Rename Channel/Favorite Folders
 - GIFs
 - Stickers
 - Reactions (react to messages with emojis, GIFs and stickers)
