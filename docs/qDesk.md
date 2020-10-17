@@ -46,8 +46,8 @@ qDesk allows to lazy load modules.
 - App is now modular, makes building add-ons easy
 - Drive Lock Fixed
 - Offer "LocalStorage" As A Storage Container On The Web To Stay Signed In
-- [qDesk Messages](qd-messages-ts)
-- [qDesk Social](quest-social-js)
+- [qDesk Messages \[Beta\]](qd-messages-ts)
+- [qDesk Social \[Beta\]](quest-social-js)
 
 **0.9.4**
 - Encrypt Settings/Message History Files
@@ -59,36 +59,53 @@ qDesk allows to lazy load modules.
 # Roadmap
 
 **0.9.5**
+- [qDesk Games \[Beta\]](qd-market-ts) (for free items)
+- [qDesk Apps \[Beta\]](qd-market-ts) (for free items)
 - More Message Types And Inline Previews
 - Native Audio/Video
 
 **0.9.6**
-- [qDesk Markets](qd-market-ts)
-- [qDesk News](qd-news-ts)
+- [qDesk Apps \[Beta\]](qd-market-ts) (for paid items)
+- [qDesk Games \[Beta\]](qd-market-ts) (for paid items)
+- [qDesk Market \[Beta\]](qd-market-ts)
+- [qDesk News \[Beta\]](qd-news-ts)
+- Ethereum Payment Integration Beta
 
 **0.9.7**
 - Add Custom Themes By Pasting CSS Into The Built-In Theme Editor
 - Import/Export Themes
 - Light Mode
+- Unlimited Custom Emojis
 
 **0.9.8**
 - Badges For Notifications
 - Desktop Notifications
 
 **0.9.9**
-- [qDesk Games](qd-games-ts)
-- Ethereum Payment Integration Beta
+- Additional Patch
+- [qDesk Music \[Beta\]](qd-music-ts) 
+- [qDesk Video \[Beta\]](qd-video-ts)
 
 **1.0.0**
+- [qDesk Quests \[Beta\]](qd-calendar-ts)
+- [qDesk Calendar \[Beta\]](qd-calendar-ts) personal & shared calendars. Add events from other modules on qDesk.
+- [qDesk Messages \[Stable\]](qd-messages-ts)
+- [qDesk Social \[Stable\]](quest-social-js)
+- [qDesk Apps \[Stable\]](qd-market-ts)
 - Fork into [Vibenarium](https://github.com/Vibenarium/vibenarium-platform)
-- Dynamic Swarm Peer List Also On The Web (add and remove bootstrap peers)
 - Third Party Dependencies Audited, Security Issues Fixed
-- Complies with privacy laws
-- Unlimited Custom Emojis
-- Quest Network Calendar App Plugin (for shared calendars)
+- Complies with global privacy laws
 
 **2.0.0**
+- [qDesk Calendar \[Stable\]](qd-calendar-ts)
+- [qDesk Market \[Stable\]](qd-market-ts)
+- [qDesk Music \[Stable\]](qd-music-ts) 
+- [qDesk Video \[Stable\]](qd-video-ts)
 - Ethereum Payment Integration Finalized
+
+**3.0.0**
+- [qDesk Quests \[Stable\]](qd-calendar-ts)
+- [qDesk Games \[Stable\]](qd-market-ts)
 
 **4.0.0**
 - [OpenAI GPT3](https://en.wikipedia.org/wiki/GPT-3) Integration For Suggestions, AutoRespond And Completion
