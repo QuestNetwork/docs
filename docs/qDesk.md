@@ -68,10 +68,10 @@ qDesk allows to lazy load modules.
 - [qDesk Apps \[Beta\]](qd-apps-ts) (for paid items)
 - [qDesk Games \[Beta\]](qd-games-ts) (for paid items)
 - [qDesk Market \[Beta\]](qd-market-ts)
-- [qDesk News \[Beta\]](qd-news-ts)
 - Ethereum Payment Integration Beta
 
 **0.9.7**
+- [qDesk News \[Beta\]](qd-news-ts)
 - Add Custom Themes By Pasting CSS Into The Built-In Theme Editor
 - Import/Export Themes
 - Light Mode

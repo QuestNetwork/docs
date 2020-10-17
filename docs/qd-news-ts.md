@@ -18,5 +18,5 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 
 # Features
 
-**0.9.6**
+**0.9.7**
 - Basic functionality
