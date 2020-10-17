@@ -73,7 +73,7 @@ async function start(){
 
   let apiReadme =  '';
   if(apiPackages.length > 1){
-     apiReadme =  '\n## ' + apiPackages.join('# ');
+     apiReadme =  '\n# ' + apiPackages.join('# ');
   }
   else{
     apiReadme =  '\n# ' + apiPackages[0];
