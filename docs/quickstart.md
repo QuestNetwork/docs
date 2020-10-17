@@ -1,11 +1,11 @@
-![Completion](https://img.shields.io/badge/completion-34%25-orange) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818) ![Version 0.9.3](https://img.shields.io/badge/stable-v0.9.4-green) ![Version 0.9.3](https://img.shields.io/badge/dev-v0.9.5-blue) ![Sponsors](https://img.shields.io/badge/sponsors-2-orange)
+![Completion](https://img.shields.io/badge/completion-34%25-orange) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818) ![Version 0.9.4](https://img.shields.io/badge/stable-v0.9.4-green) ![Version 0.9.5](https://img.shields.io/badge/dev-v0.9.5-blue) ![Sponsors](https://img.shields.io/badge/sponsors-1-orange)
 
 # Quest Network
 > Cross-Platform Trustless Social Network
 
 ![Screenshot](https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.3/doc/images/0.9.3.png?raw=true)
 
->In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qDesk#troubleshooting) in Settings > IPFS. 
+>In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qDesk#troubleshooting) in Settings > IPFS.
 
 We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules like  [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts), as well as the upcoming  [qD Markets](qd-market-ts), [qD News](qd-news-ts) and [qD Games](qd-games-ts).
 
