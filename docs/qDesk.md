@@ -59,14 +59,14 @@ qDesk allows to lazy load modules.
 # Roadmap
 
 **0.9.5**
-- [qDesk Games \[Beta\]](qd-market-ts) (for free items)
+- [qDesk Games \[Beta\]](qd-games-ts) (for free items)
 - [qDesk Apps \[Beta\]](qd-market-ts) (for free items)
 - More Message Types And Inline Previews
 - Native Audio/Video
 
 **0.9.6**
-- [qDesk Apps \[Beta\]](qd-market-ts) (for paid items)
-- [qDesk Games \[Beta\]](qd-market-ts) (for paid items)
+- [qDesk Apps \[Beta\]](qd-apps-ts) (for paid items)
+- [qDesk Games \[Beta\]](qd-games-ts) (for paid items)
 - [qDesk Market \[Beta\]](qd-market-ts)
 - [qDesk News \[Beta\]](qd-news-ts)
 - Ethereum Payment Integration Beta
@@ -87,11 +87,11 @@ qDesk allows to lazy load modules.
 - [qDesk Video \[Beta\]](qd-video-ts)
 
 **1.0.0**
-- [qDesk Quests \[Beta\]](qd-calendar-ts)
+- [qDesk Quests \[Beta\]](qd-quest-ts)
 - [qDesk Calendar \[Beta\]](qd-calendar-ts) personal & shared calendars. Add events from other modules on qDesk.
 - [qDesk Messages \[Stable\]](qd-messages-ts)
 - [qDesk Social \[Stable\]](quest-social-js)
-- [qDesk Apps \[Stable\]](qd-market-ts)
+- [qDesk Apps \[Stable\]](qd-apps-ts)
 - Fork into [Vibenarium](https://github.com/Vibenarium/vibenarium-platform)
 - Third Party Dependencies Audited, Security Issues Fixed
 - Complies with global privacy laws
@@ -104,8 +104,8 @@ qDesk allows to lazy load modules.
 - Ethereum Payment Integration Finalized
 
 **3.0.0**
-- [qDesk Quests \[Stable\]](qd-calendar-ts)
-- [qDesk Games \[Stable\]](qd-market-ts)
+- [qDesk Quests \[Stable\]](qd-quest-ts)
+- [qDesk Games \[Stable\]](qd-games-ts)
 
 **4.0.0**
 - [OpenAI GPT3](https://en.wikipedia.org/wiki/GPT-3) Integration For Suggestions, AutoRespond And Completion

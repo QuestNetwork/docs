@@ -26,7 +26,6 @@ Look what other people have built with qDesk: [Awesome Quest Network dApps](http
  [qDesk](qDesk.md) allows to lazy load modules.
 
 
-
 # Try it live
 
 See our [Web Demo](web-demo.md) to open our example application in the browser.
