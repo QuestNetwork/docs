@@ -1,5 +1,7 @@
 # Web Demo
 
+**0.9.4**
+
 Try our example application live in your browser. We recommend Chrome & Firefox.
 
 <img src='https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.4/doc/images/pinatalink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.4/doc/images/cloudflarelink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.4/doc/images/ipfsiolink.png?raw=true' width=25%>
