@@ -26,9 +26,6 @@ Look what other people have built with qDesk: [Awesome Quest Network dApps](http
 
 qDesk allows to lazy load modules.
 
-
-
-
 # Features
 
 **0.9.3**

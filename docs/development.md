@@ -22,7 +22,7 @@ git clone qDesk && cd qDesk && git checkout 0.9.4 && npm run q-dev && cd ..
 
 2.) Install Dependencies & Enter qDesk Repository:
 ```
-cd qd-social-ts && npm run inst && cd .. && cd qd-messages-ts && npm run inst && cd .. && cd qDesk && npm run inst
+cd quest-utilities-js && npm install && cd .. && cd quest-crypto-js && npm install && cd .. && cd quest-os-js && npm install && cd .. && cd qd-social-ts && npm run inst && cd .. && cd qd-messages-ts && npm run inst && cd .. && cd qDesk && npm run inst
 ```
 
 ## Commands

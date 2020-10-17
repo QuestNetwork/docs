@@ -1,9 +1,9 @@
 # Quest Coral JS
-> File/Data Persistance For The Quest Network
+> IPFS Datastore For The Quest Network
 
 # Description
 
-Coming Q4 2020 - Data/File Persistance For The Quest Network.
+IPFS Datastore For The Quest Network.
 
 # Installation & Usage
 
@@ -14,5 +14,6 @@ Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/t
 
 # Features
 
-**0.9.6**
+**0.9.4**
 - Basic functionality
+- Uses [`ipfs.dag`](https://docs.ipfs.io/concepts/merkle-dag/)

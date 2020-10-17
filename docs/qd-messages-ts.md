@@ -80,7 +80,7 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 # Roadmap
 
 **0.9.5**
-[qDesk Social](qd-social-ts) now allows to share private stations, so you can have direct conversations with people who have shared their private stations with you.
+- [qDesk Social](qd-social-ts) now allows to share private stations, so you can have direct conversations with people who have shared their private stations with you.
 - Channel Folders are now sorted alphabetically by default
 - Sidebars resizable
 - Magic Folder Explorer/Guide On Main (Delete Folders Also Called From Icon Click There)
