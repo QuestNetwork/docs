@@ -18,7 +18,7 @@ Check out our [API Reference](api.md) to get started!
 **OR**  
 
 ```
-git clone quest-os-js && cd quest-os-js && git checkout 0.9.3 && cd ..
+git clone quest-os-js && cd quest-os-js && git checkout 0.9.4 && cd ..
 ```
 
 # Features
