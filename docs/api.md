@@ -261,7 +261,44 @@ We recommend to use our [quest-cli](quest-cli) to test and build the package. It
 
 Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/to/quest-cli/index.js` from any folder on your system. It's much nicer!
 
-# crypto
+# bee
+
+## comb
+
+### bee.comb.get(path)
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
+
+Gets HoneyComb Object Or Array Of Objects.
+
+```javascript
+let comb = <os>.bee.comb.get('/my/path/to/the/object');
+```
+
+### bee.comb.set(path,content)
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
+
+Sets HoneyComb Object Or Array Of Objects.
+
+```javascript
+<os>.bee.comb.set('/my/path/to/the/object',content);
+```
+
+### bee.comb.add(path,content)
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
+
+Adds a HoneyComb object to an array of HoneyComb objects.
+
+```javascript
+<os>.bee.comb.set('/my/path/to/the/object',content);
+```
+
+### bee.comb.search(path)
+
+Searches for HoneyComb objects and returns a flat array of HoneyComb objects.
+
+```javascript
+let results = <os>.bee.comb.search('/my/path');
+```# crypto
 
 ## aes
 
