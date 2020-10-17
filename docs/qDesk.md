@@ -83,8 +83,7 @@ qDesk allows to lazy load modules.
 
 **0.9.9**
 - Additional Patch
-- [qDesk Music \[Beta\]](qd-music-ts) 
-- [qDesk Video \[Beta\]](qd-video-ts)
+- [qDesk Vibes \[Beta\]](qd-vibes-ts) 
 
 **1.0.0**
 - [qDesk Quests \[Beta\]](qd-quest-ts)
@@ -99,8 +98,7 @@ qDesk allows to lazy load modules.
 **2.0.0**
 - [qDesk Calendar \[Stable\]](qd-calendar-ts)
 - [qDesk Market \[Stable\]](qd-market-ts)
-- [qDesk Music \[Stable\]](qd-music-ts) 
-- [qDesk Video \[Stable\]](qd-video-ts)
+- [qDesk Vibes \[Stable\]](qd-vibes-ts) 
 - Ethereum Payment Integration Finalized
 
 **3.0.0**
