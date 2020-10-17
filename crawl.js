@@ -80,7 +80,7 @@ async function start(){
       if(apiPackage.indexOf('quest-os-js') > 0 && apiPackage.indexOf('quest-os-js')  < 20){
         qOS = apiPackage;
       }else{
-        apiReadme =  '# ' + apiPackage;
+        apiReadme +=  '# ' + apiPackage;
       }
     }
 
