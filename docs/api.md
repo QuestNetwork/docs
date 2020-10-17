@@ -563,6 +563,8 @@ async <os>.social.timeline.post.delete(qHash);
 ```
 
 ### async social.timeline.post.new(postObj = { content: '', socialPubKey:'' })
+[![Social](https://img.shields.io/badge/process-Social-green)](quest-social-js) [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
+
 Creates a new post on the timeline of the owner of the socialPubKey.
 
 ```javascript
@@ -570,6 +572,8 @@ Creates a new post on the timeline of the owner of the socialPubKey.
 ```
 
 ### propagate(latestRef, postObj)
+[![Social](https://img.shields.io/badge/process-Social-green)](quest-social-js) [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
+
 Propagates the latest timeline ref across channels.
 
 ```javascript
@@ -589,6 +593,8 @@ async <os>.social.timeline.agent.sync(pubKey);
 ```
 
 ### async social.timeline.agent.groupTimeline(timeline,  limit = 0)
+[![Social](https://img.shields.io/badge/process-Social-green)](quest-social-js) [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
+
 Creates a new post on the timeline of the owner of the socialPubKey.
 
 ```javascript

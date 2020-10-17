@@ -8,11 +8,11 @@ qDesk Vibes is a module for qDesk. It's accessible across qDesk, you can use it 
 
 qDesk Vibes offers the ability to share music and videos, as well as to explore music and videos shared by peers on the network. qDesk Vibes is connected to [qDesk Social](qd-social-js) and uses the station supplied by qDesk Social. 
 
-Music and videos can be offered for free and artists can receive donations. Premium content is purchased using supported wallets. Copyright infringement is reported directly to the artists by free and premium crawlers. 
+Music and videos can be offered for free and artists can receive donations. Premium content is purchased using supported wallets. Copyright infringement is reported directly to the artists or their representatives by free and premium crawlers. 
 
 qDesk Vibes and qDesk Social are modules for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
-We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
+We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. The Quest Network is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
 [qDesk](qDesk) works in the browser, as an Electron on Windows, Mac and Linux and Android using Cordova.
 
