@@ -50,7 +50,7 @@ qDesk allows to lazy load modules.
 - [qDesk Social \[Beta\]](quest-social-js)
 
 **0.9.4**
-- Encrypt Settings/Message History Files
+- Encrypt Account
 - Change Swarm Peers In The Browser
 - [Quest Network Coral Process](quest-coral-js)
 - Additional Peering, option to pull from GitHub.
