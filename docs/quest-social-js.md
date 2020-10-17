@@ -1,5 +1,5 @@
 # Quest Social JS
-> Lower level functionality for [QD Social TS](qd-social-ts) 
+> A Decentralized Social Protocol for Dolphin and Coral.
 
 # Description
 
@@ -11,5 +11,5 @@ See [QD Social TS](qd-social-ts) the [Features](qd-social-ts#Features) & [Roadma
 Check out our [API Reference](api.md) to get started!
 
 ```
-npm install @questnetwork/quest-social-js@0.9.3
+npm install @questnetwork/quest-social-js@0.9.4
 ```
