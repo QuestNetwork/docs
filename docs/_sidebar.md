@@ -26,6 +26,7 @@
     - [qD Markets](qd-market-ts.md)
     - [qD Apps](qd-apps-ts.md)
     - [qD Games](qd-games-ts.md)
+    - [qD Vibes](qd-vibes-ts.md)
 
 - Library
   - [qOS](quest-os-js.md)
