@@ -34,6 +34,7 @@
   + [quest-bee-js](quest-bee-js)
   + [quest-cli](quest-cli)
   + [quest-coral-js](quest-coral-js)
+  + [quest-crypto-js](quest-crypto-js)
   + [quest-dolphin-js](quest-dolphin-js)
   + [quest-engine-js](quest-engine-js)
   + [quest-image-captcha-js](quest-image-captcha-js)
@@ -42,4 +43,5 @@
   + [quest-social-js](quest-social-js)
   + [quest-star-go](quest-star-go)
   + [quest-star-rust](quest-star-rust)
+  + [quest-utilities-js](quest-utilities-js)
  - [License](license.md)
