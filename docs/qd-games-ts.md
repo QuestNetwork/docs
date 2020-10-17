@@ -4,9 +4,9 @@
 
 # Description
 
-qDesk Games is a module for [qDesk](https://qDesk.org). It integrates with qDesk Messages and allows the users in channels or communities to play Unity and Unreal Engine built games together while using qDesk for communication. 
+qDesk Games is a module for [qDesk](https://qDesk.org). It integrates with qDesk Messages and allows the users in channels or communities to play Unity and Unreal Engine built games together while using qDesk for communication.
 
-qDesk Games is also a sharing platform and extended from qDesk Apps on which peers can share references to free and premium games hosted on IPFS.
+qDesk Games is also a sharing platform and extended from qDesk Apps on which peers can share references to free and premium games hosted on IPFS and allows peers on the network to exchange, discuss, categorize and rate games democratically.
 
 Use [Quest OS](quest-os-js) in your applications and you can use the underlying channels and data in your own application by booting with [Quest Games JS](quest-games-js).
 
