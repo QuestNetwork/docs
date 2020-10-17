@@ -77,7 +77,7 @@ async function start(){
   if(apiPackages.length > 1){
     // console.log(apiPackages.join('# '));
     for(let apiPackage of apiPackages){
-      if(apiPackage.indexOf('quest-os-js') > 0 && apiPackage.indexOf('quest-os-js')  < 20){
+      if(apiPackage.indexOf('quest-os-js') > -1 && apiPackage.indexOf('quest-os-js')  < 20){
         qOS = apiPackage;
       }else{
         apiReadme +=  '# ' + apiPackage;
@@ -88,6 +88,7 @@ async function start(){
   else{
     apiReadme =  '\n# ' + apiPackages[0];
   }
+
 
 
   console.log(apiReadme);
