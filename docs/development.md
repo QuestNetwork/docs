@@ -10,14 +10,14 @@ See our [Kanban](https://github.com/orgs/QuestNetwork/projects/1) for the develo
 
 Clone & Checkout essential repositories:
 ```
-git clone qd-social-ts && git clone qd-messages-ts && git clone qDesk && cd qd-social-ts   && git checkout 0.9.3 && cd ..  &&  cd qd-messages-ts   && git checkout 0.9.3-rc1 && cd ..  &&  cd qDesk   && git checkout 0.9.3-rc1 && cd ..
+git clone qd-social-ts && git clone qd-messages-ts && git clone qDesk && cd qd-social-ts   && git checkout 0.9.4 && cd ..  &&  cd qd-messages-ts   && git checkout 0.9.4 && cd ..  &&  cd qDesk   && git checkout 0.9.4 && cd ..
 ```
 
 OR 
 
 Clone & Checkout all repositories on the latest dev branch:
 ``` 
-git clone qDesk && cd qDesk && git checkout 0.9.4 && npm run q-dev && cd ..
+git clone qDesk && cd qDesk && git checkout 0.9.5-dev && npm run q-dev && cd ..
 ````
 
 2.) Install Dependencies & Enter qDesk Repository:

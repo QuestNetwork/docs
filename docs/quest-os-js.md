@@ -1,6 +1,6 @@
-![Completion](https://img.shields.io/badge/completion-12%25-orange) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818) ![Version 0.9.3](https://img.shields.io/badge/version-v0.9.3-green) ![Version 0.9.3](https://img.shields.io/badge/version-v0.9.4-blue) ![Sponsors](https://img.shields.io/badge/sponsors-0-red)
+![Completion](https://img.shields.io/badge/completion-14%25-orange) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818) ![Version 0.9.4](https://img.shields.io/badge/version-v0.9.4-green) ![Version 0.9.5](https://img.shields.io/badge/version-v0.9.5-blue) ![Sponsors](https://img.shields.io/badge/sponsors-0-red)
 
-# Quest OS JS 
+# Quest OS JS
 
 # Description
 Unified API for the QuestNetwork dStack. Use with our example app: [qDesk](qDesk).
@@ -13,11 +13,13 @@ Quest OS offers encrypted channels, persistent storage, peer management, timelin
 Check out our [API Reference](api.md) to get started!
 
 
-``npm install @questnetwork/quest-os-js@0.9.3``
+``npm install @questnetwork/quest-os-js@0.9.4``
 
 **OR**  
 
-``git clone https://github.com/QuestNetwork/quest-os-js && cd quest-os-js && git checkout 0.9.3 && cd ..``
+```
+git clone quest-os-js && cd quest-os-js && git checkout 0.9.3 && cd ..
+```
 
 # Features
 
@@ -42,4 +44,4 @@ Change Peer Configuration in browser, Electron and on NodeJS
 
 **0.9.4**
 - Democratically block or mute peers
-- Faux requests. Send request in channel, wait for response, deliver response as if it was an http request. 
+- Faux requests. Send request in channel, wait for response, deliver response as if it was an http request.

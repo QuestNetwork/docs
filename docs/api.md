@@ -1,17 +1,20 @@
 quest-os-js
 
-## system
 
-### async boot(config)
+## async boot(config)
 
 Boots the operating system. The GitHub branches master/0.9.2/0.9.3+ boot with:
 
 JavaScript/NodeJS
-```javascript
+```
 import { qOS } from '@questnetwork/quest-os-js'
 // configure with a bootstrap swarm peer, for testing you can use:
 let config = {
-  ipfs: { swarm: [<swarm star peer ip>,<swarm star peer ip>] },
+  ipfs: {
+        Swarm: [<swarm star peer ip>,<swarm star peer ip>],
+        quest-os-js: '',
+        Gateway: ''
+  },
   version: <version>
   dev: <true/false>
 };
@@ -22,7 +25,7 @@ qOS.boot().then( () => {
 ```
 
 TypeScript/Angular Service
-```javascript
+```
 import { Injectable } from '@angular/core';
 import { qOS }  from '@questnetwork/quest-os-js';
 import * as swarmJson from '../swarm.json';
@@ -39,7 +42,9 @@ export class QuestOSService {
   constructor() {
     this.config = {
       ipfs: {
-        swarm: swarmJson['ipfs']['swarm']
+        Swarm: swarmJson['ipfs']['Swarm'],
+        quest-os-js: '',
+        Gateway: ''
       },
       version: version,
       dev: swarmJson['dev']
@@ -58,37 +63,46 @@ export class QuestOSService {
 }
 ```
 
-### isReady()
+## isReady()
 
 Returns true once boot is complete, otherwise returns false.
 
-```javascript
+```
 if(<os>.isReady()){
   console.log("Ready To Sign In");
 };
 ```
 
 
-### onReady()
+## onReady()
 
 Returns a Subject that pushes next when boot is complete
 
-```javascript
+```
 if(<os>.onReady().subsribe( () => {
   console.log("Ready To Sign In");
 });
 ```
 
 
-### reboot()
+## reboot()
 
 Reboots the entire system
 
-```javascript
+```
 <os>.reboot();
 ```
 
-### enableSaveLock() 
+## utilities.engine.detect()
+Returns a string 'node', 'electron' or 'browser'
+
+```
+if(<os>.utilities.engine.detect() == 'node'){
+  console.log("Hello Universe");
+};
+```
+
+## enableSaveLock()
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Locks the system from saving any changes
@@ -96,64 +110,64 @@ Locks the system from saving any changes
 <os>.enableSaveLock();
 ```
 
-### disableSaveLock() 
+## disableSaveLock()
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Unlocks the system from saving changes and saves changes normally
-```javascript
+```
 <os>.disableSaveLock();
 ```
 
 
-### setStorageLocation(location)
+## setStorageLocation(location)
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Sets the storage location for the app. Normally Quest OS does this automatically and you do not need to call this function.
 Possible locations are: `"Download"`,`"LocalStorage"` or `"ConfigFile"`
 
-```javascript
+```
 <os>.setStorageLocation("LocalStorage");
 ```
 
-### getStorageLocation(location)
+## getStorageLocation(location)
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Returns a string with the current storage location
 
-```javascript
+```
 <os>.getStorageLocation();
 ```
 
-### signIn(config = {})
+## signIn(config = {})
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Activates Accounts. Empty config creates a new account
-```javascript
+```
 <os>.signIn({});
 ```
-### signOut()
+## signOut()
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Deactivates Accounts And Restarts The Interface On The Web, Closes The Current Window In Electron
-```javascript
+```
 <os>.signOut();
 ```
 
-### onSignIn()
+## onSignIn()
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Returns a subscribable Subject that fires when the account is signed in.
-```javascript
+```
 <os>.onSignIn().subscribe( () => {
   console.log("Hello Universe");
 });
 ```
 
-### isSignedIn()
+## isSignedIn()
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Returns a boolean true or false
-```javascript
+```
 if(<os>.isSignedIn()){
   console.log("Hello Universe");
 };
@@ -165,7 +179,7 @@ if(<os>.isSignedIn()){
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Returns the clean channel name
-```javascript
+```
 let claenChannelName = await <os>.channel.create('propaganda');
 ```
 
@@ -173,7 +187,7 @@ let claenChannelName = await <os>.channel.create('propaganda');
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Removes a channel
-```javascript
+```
 <os>.channel.remove('propaganda----1234');
 ```
 
@@ -181,7 +195,7 @@ Removes a channel
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Returns a Subject that forwards non-system channel messages.
-```javascript
+```
 <os>.channel.listen('propaganda----1234').subscribe( msg ){
   console.log(msg);
 }
@@ -191,15 +205,17 @@ Returns a Subject that forwards non-system channel messages.
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Returns a Subject that forwards non-system channel messages.
-```javascript
+```
 await <os>.channel.publish('propaganda----1234',"Hello Universe");
 ```
+
+## channel.challenge
 
 ### channel.challenge.enable(cleanChannelName)  
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Opens the channel to everyone who can solve the Captcha provided by [Quest Image Captcha JS](quest-image-captcha-js)
-```javascript
+```
 <os>.channel.challenge.enable('propaganda----1234');
 ```
 
@@ -207,18 +223,20 @@ Opens the channel to everyone who can solve the Captcha provided by [Quest Image
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Closes the channel to invite only participation
-```javascript
+```
 <os>.channel.challenge.disable('propaganda----1234');
 ```
 
 ### channel.challenge.isEnabled(cleanChannelName)  
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
-```javascript
+```
 if(<os>.isEnabled()){
   console.log("Hello Universe");
 };
 ```
+
+## channel.invite
 
 ### channel.invite.create(cleanChannelName,newInviteCodeMax, exportFolders = false)  
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
@@ -232,7 +250,7 @@ Creates a new channel invite, specify max uses of this invite code and whether o
 [![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Removes a channel invite
-```javascript
+```
 <os>.channel.invite.remove('propaganda----1234',"5448495320495320414e2045585452454d454c59204c4f4e4720414e4420494e56414c494420494e5649544520434f4445");
 ```
 
@@ -240,7 +258,7 @@ Removes a channel invite
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Gets all invites for a channel
-```javascript
+```
 let invites = <os>.channel.invite.get('propaganda----1234');
 ```
 
@@ -249,10 +267,9 @@ let invites = <os>.channel.invite.get('propaganda----1234');
 [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
 
 Gets all invites for a channel
-```javascript
+```
 let invites = <os>.channel.invite.get('propaganda----1234');
 ```
-
 
 
 **Unfortunately nobody is working on a detailed quest-os-js documentation yet, until then check out the source in [qDesk Messages](quest-messenger-js) 0.9.3+ to see how to use the OS.**
@@ -289,7 +306,7 @@ Sets HoneyComb Object Or Array Of Objects.
 Adds a HoneyComb object to an array of HoneyComb objects.
 
 ```javascript
-<os>.bee.comb.set('/my/path/to/the/object',content);
+<os>.bee.comb.add('/my/path/to/the/object',content);
 ```
 
 ### bee.comb.search(path)
@@ -300,6 +317,36 @@ Searches for HoneyComb objects and returns a flat array of HoneyComb objects.
 ```javascript
 let results = <os>.bee.comb.search('/my/path');
 ```
+# coral
+
+## dag
+
+### async set(path, unencrytpedObject,storagePath)
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
+
+Returns the reference object.
+
+``
+let latestRef = <os>.coral.dag.set('/my/path',unencrytpedObject,{ storagePath: '/archive/social/timeline/transaction' });
+``
+
+### async add(path, unencrytpedObject,storagePath)
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
+
+Returns the reference object.
+
+``
+let latestRef = <os>.coral.dag.add('/my/path',unencrytpedObject,{ storagePath: '/archive/social/timeline/transaction' });
+``
+
+### async get(pathOrCid, config = {})
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js) [![Ocean](https://img.shields.io/badge/process-Ocean-blue)](quest-ocean-js)
+
+
+Returns the decrypted object or array of objects.
+``
+let array = <os>.coral.dag.get('/my/path',{ limit: 5 });
+``
 # crypto
 
 ## aes
@@ -418,6 +465,15 @@ Decrypts a string with an RSA public key
 let decrypted = await <os>.crypto.rsa.fullDecrypt(encrypted,pk);
 ```
 
+# dolphin
+
+## async sayHi(channel)
+
+Send the sayHi message in a given channel.
+
+```javascript
+await <os>.ocean.dolphin.sayHi(channel)
+````
 # social
 
 ## profile
@@ -566,14 +622,18 @@ Removes the object in the array that matches searchObject in at least one field.
 <os>.utilities.removeFram(array,searchObject)
 ```
 
-## engine.detect()
+## engine
+
+### detect()
 
 Returns a String containing the detected engine. Result can be `browser`, `electron` or `node`.
 ```javascript
 let engine = <os>.utilities.engine.detect();
 ```
 
-## qr.generate()
+## qr
+
+### generate()
 
 Returns a DataUrl containing generated QR Code.
 ```javascript
