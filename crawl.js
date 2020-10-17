@@ -93,7 +93,7 @@ async function start(){
   console.log(apiReadme);
   console.log('API Sections Parsed & Merged: '+apiPackages.length);
   // console.log(apiReadme);
-  fs.writeFileSync('docs/api.md',apiReadme,{encoding:'utf8',flag:'w'});
+  fs.writeFileSync('docs/api.md',qOS+'\n'+apiReadme,{encoding:'utf8',flag:'w'});
 
     let license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/master/LICENSE');
     fs.writeFileSync('docs/license.md',license['data'],{encoding:'utf8',flag:'w'})
