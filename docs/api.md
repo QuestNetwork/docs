@@ -464,7 +464,7 @@ Send the sayHi message in a given channel.
 
 ```javascript
 await <os>.ocean.dolphin.sayHi(channel)
-````
+```
 # social
 
 ## profile

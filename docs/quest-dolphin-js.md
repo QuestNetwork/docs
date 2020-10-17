@@ -11,3 +11,17 @@ Check out our [API Reference](api.md) to get started!
 ```
 npm install @questnetwork/quest-dolphin-js@0.9.4
 ```
+
+# Features
+
+**0.9.1**
+- Added invite codes and plist sync
+
+**0.9.3**
+- Added social types
+
+# Roadmap
+
+**0.9.5**
+
+- Request And Listen To Assemblies, Set Up Quorums
