@@ -1,8 +1,8 @@
 ![Completion 1.0.0](https://img.shields.io/badge/completion%20v1.0.0-0%25-red) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818) ![Version 0.9.3](https://img.shields.io/badge/version-v0.9.5-blue) ![Sponsors](https://img.shields.io/badge/sponsors-0-red)
 
-## qDesk Apps
+# qDesk Apps
 
-## Description
+# Description
 
 qDesk Apps is a module for [qDesk](https://qDesk.org). It's accessible across qDesk, you can use it with qDesk Messages, qDesk Social and other qDesk modules. This module allows peers on the network to exchange, discuss, categorize and rate apps democratically.
 
@@ -16,7 +16,7 @@ We have chosen Angular/Electron as an example environment because we believe it 
 
 Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
 
-### Commands
+# Commands
 
 **Prepare Package**
 
@@ -26,7 +26,7 @@ We added an example ```swarm.json``` to the ```src/app``` folder with an example
 
 Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/to/quest-cli/index.js` from any folder on your system. It's much nicer!
 
-## Features
+# Features
 
 **0.9.5**
 - Basic functionality
