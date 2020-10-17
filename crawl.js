@@ -72,10 +72,18 @@ async function start(){
   }
 
   let apiReadme =  '';
+  let qOS = '';
   // console.log(apiPackages);
   if(apiPackages.length > 1){
     // console.log(apiPackages.join('# '));
-     apiReadme =  '# Alpha Buffer \n## Alpha Buffer\n Alpha # \n# ' + apiPackages.join('# ');
+    for(let apiPackage of apiPackages){
+      if(apiPackage.indexOf('quest-os-js') > 0 && apiPackage.indexOf('quest-os-js')  < 20){
+        qOS = apiPackage;
+      }else{
+        apiReadme =  '# ' + apiPackage;
+      }
+    }
+
   }
   else{
     apiReadme =  '\n# ' + apiPackages[0];
@@ -85,7 +93,7 @@ async function start(){
   console.log(apiReadme);
   console.log('API Sections Parsed & Merged: '+apiPackages.length);
   // console.log(apiReadme);
-  fs.writeFileSync('docs/api.md',"#"+apiReadme,{encoding:'utf8',flag:'w'});
+  fs.writeFileSync('docs/api.md',apiReadme,{encoding:'utf8',flag:'w'});
 
     let license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/master/LICENSE');
     fs.writeFileSync('docs/license.md',license['data'],{encoding:'utf8',flag:'w'})
