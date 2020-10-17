@@ -74,6 +74,7 @@ async function start(){
   let apiReadme =  '';
   console.log(apiPackages);
   if(apiPackages.length > 1){
+    console.log(apiPackages.join('# '));
      apiReadme =  '# ' + apiPackages.join('# ');
   }
   else{
