@@ -4,7 +4,7 @@
 
 ## Description
 
-qDesk Apps is a module for [qDesk](https://qDesk.org). It's accessible across qDesk, you can use it with qDesk Messages, qDesk Social and other qDesk modules. This module allows peers on the network to exchange, discuss and rate apps democratically.
+qDesk Apps is a module for [qDesk](https://qDesk.org). It's accessible across qDesk, you can use it with qDesk Messages, qDesk Social and other qDesk modules. This module allows peers on the network to exchange, discuss, categorize and rate apps democratically.
 
 Use [Quest OS](https://github.com/QuestNetwork/quest-os-js) in your applications and you can use the underlying channels and data in your own application by booting with [Quest News JS](https://github.com/QuestNetwork/quest-news-js).
 
