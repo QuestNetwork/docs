@@ -293,12 +293,14 @@ Adds a HoneyComb object to an array of HoneyComb objects.
 ```
 
 ### bee.comb.search(path)
+[![Bee](https://img.shields.io/badge/process-Bee-yellow)](quest-bee-js)
 
 Searches for HoneyComb objects and returns a flat array of HoneyComb objects.
 
 ```javascript
 let results = <os>.bee.comb.search('/my/path');
-```# crypto
+```
+# crypto
 
 ## aes
 
