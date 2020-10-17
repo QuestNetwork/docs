@@ -41,7 +41,6 @@ Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/t
 **0.9.5**
 - Basic functionality
 
-
 ## Lead Maintainer
 
 [StationedInTheField](https://github.com/StationedInTheField)
