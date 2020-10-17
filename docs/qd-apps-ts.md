@@ -16,10 +16,6 @@ We have chosen Angular/Electron as an example environment because we believe it 
 
 Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
 
-## Development
-
-qDesk Apps is a module of [qDesk](https://github.com/QuestNetwork/qDesk), so please see https://github.com/QuestNetwork/qDesk#development for instructions.
-
 ### Commands
 
 **Prepare Package**
