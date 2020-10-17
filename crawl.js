@@ -72,15 +72,17 @@ async function start(){
   }
 
   let apiReadme =  '';
-  console.log(apiPackages);
+  // console.log(apiPackages);
   if(apiPackages.length > 1){
-    console.log(apiPackages.join('# '));
+    // console.log(apiPackages.join('# '));
      apiReadme =  '# ' + apiPackages.join('# ');
   }
   else{
     apiReadme =  '\n# ' + apiPackages[0];
   }
 
+
+  console.log(apiReadme);
   console.log('API Sections Parsed & Merged: '+apiPackages.length);
   // console.log(apiReadme);
   fs.writeFileSync('docs/api.md',"#"+apiReadme,{encoding:'utf8',flag:'w'});
