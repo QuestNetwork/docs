@@ -1,4 +1,4 @@
-# Quest Network <small>0.9.3</small>
+# Quest Network <small>0.9.4</small>
 
 > Works without the internet!
 
