@@ -67,7 +67,7 @@ async function start(){
       // readme = readme.replace()
       fs.writeFileSync('docs/'+name.split('/')[1]+'.md',readme,{encoding:'utf8',flag:'w'})
     }catch(e){
-    // console.log(e)
+    console.log(e)
     }
   }
 
@@ -118,7 +118,9 @@ async function start(){
 
 
         }
-        catch(e){}
+        catch(e){
+          console.log(e)
+        }
 
       }
     }
