@@ -1,4 +1,3 @@
-#
 ## crypto
 
 ## aes.generatePassphrase(length)
@@ -109,7 +108,7 @@ Decrypts a string with an RSA public key
 let decrypted = await <os>.crypto.rsa.fullDecrypt(encrypted,pk);
 ```
 
-## quest-os-js
+# quest-os-js
 
 ## system
 
@@ -371,7 +370,7 @@ let invites = <os>.channel.invite.get('propaganda----1234');
 We recommend to use our [quest-cli](quest-cli) to test and build the package. It allows you to bootstrap your Quest Network apps with the same peers and settings.
 
 Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/to/quest-cli/index.js` from any folder on your system. It's much nicer!
-## social
+# social
 
 ## profile
 
@@ -501,7 +500,7 @@ Creates a new post on the timeline of the owner of the socialPubKey.
 <os>.social.timeline.agent.groupTimeline(timeline,  limit = 0)
 ```
 
-## utilities
+# utilities
 
 ## inArray(array,value)
 
