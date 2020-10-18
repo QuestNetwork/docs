@@ -76,6 +76,9 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Online/Offline Status
 - Improved Participant List
 - Improved Favorites
+- Encrypt Settings/Files
+- [Quest Network Coral Process](quest-coral-js)
+
 
 # Roadmap
 
@@ -90,20 +93,19 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Ignore/Mute Channel Participants Locally
 - Ban Channel Participants By Generating New Channel Names (ask representatives for new name, refuse banned participants
 - Increase Security For Private P2P Channels
-- Magic Folders 
 - Rename Channel/Favorite Folders
-- GIFs
-- Stickers
 - Reactions (react to messages with emojis, GIFs and stickers)
 - AES Encrypt Invite Tokens
 - AutoSave And P2P Sync For Message History Tree
 - Export Message Histories
 
 **0.9.6**
-- [Quest Network Coral Process](quest-coral-js)
 - Encrypted P2P File Transfer (End-To-End AES-256-CBC, Shared Via 4096 Bit OAEP)
 - Inline Preview For Media Files And Links (images, videos, etc)
-- Encrypt Settings/Files
+- Magic Folders 
+- Stickers
+- GIFs
+
 
 **0.9.7**
 - Private Channels Extendable To Groups (background create and join)
