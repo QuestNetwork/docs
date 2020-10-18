@@ -12,38 +12,63 @@ Awesome list of [Quest Network](https://github.com/QuestNetwork) seed repos, sta
 
 * [qDesk Messages](qd-messages-ts) - Decentralized Messenger
 
+### Apps
+
+* [qDesk Apps](qd-apps-ts) - Peer-to-peer App Publishing
+
 ### Games
 
-* [qDesk Games](qd-games-ts) - Peer-to-peer Gaming Platform For Unity & Unreal Engine Games
+* [qDesk Games](qd-games-ts) - Peer-to-peer Distribution & Gaming Platform
+
+### Scheduling
+
+* [qDesk Calendar](qd-calendar-ts) - Peer-to-peer Shared & Advertised Calendar Events
 
 ### Social Networks
 
-* [qDesk Social](qd-social-ts) - Decentralized Social Network (links to identities on qDesk Messages)
+* [qDesk Social](qd-social-ts) - Decentralized Social Network 
+
+### Streaming
+
+* [qDesk Vibes](qd-vibes-ts) - Decentralized Streaming Service & Advanced Media Distribution
 
 ### News
 
-* [qDesk News](qd-news-ts) - Decentralized News Platform (links to disccusions on qDesk Social)
+* [qDesk News](qd-news-ts) - Decentralized News Platform 
 
 ### Trade 
 
-* [qDesk Markets](qd-market-ts) - Decentralized Marketplace (links to profiles on qDesk Social)
+* [qDesk Markets](qd-market-ts) - Decentralized Marketplace
 
 ### Development
 
 * [qDesk](qDesk) - Example app, loads and manages lazy loaded modules and system components.
 
-### Core Package 
+### Core Packages
 
 * [Quest Network Operating System JS](quest-os-js) - JavaScript Implementation of the Quest Network Operating System. Plug and play solution to build Quest Network, IPFS and Ethereum dApps.
 
-### System Services 
-* [Quest Social JS](quest-social-js) - Social Network Manager
-* [Quest Bee JS](quest-bee-js) - Decentralized Routing And Configuration Management
-* [Quest Ocean JS](quest-ocean-js) - Unified API For Swarm Processes
-* [Quest Dolphin JS](quest-dolphin-js) - Smart API And Process Management
+* [Quest Network Quorum Module](quest-quorum-js) - JavaScript Implementation of the Quest Network Quorum Protocol.
+
 * [Quest PubSub JS](quest-pubsub-js) - Second Layer PubSub Protocol To Provide Encrypted And Obfuscated 
 Communication And Spam Protection
+
 * [Quest Crypto JS](quest-crypto-js) - Crypto library
+
+### Utility Services 
+* [Quest Utilities JS](quest-utilities-js) - Utility library
+* [QD UI JS](qd-ui-js) - UI Utility library
+
+
+### System Services 
+* [Quest Engine JS](quest-engine-js) - Quest Engine
+* [Quest Social JS](quest-social-js) - Social Network Manager
+* [Quest Bee JS](quest-bee-js) - Decentralized Routing And Configuration Management
+* [Quest Coral JS](quest-coral-js) - Decentralized DAG Datastore 
+* [Quest Ocean JS](quest-ocean-js) - Unified API For Swarm Processes
+* [Quest Dolphin JS](quest-dolphin-js) - Smart API And Process Management
 * [Quest Image Captcha JS](quest-image-captcha-js) - Decentralized Image Captcha
+
+
 
 ---
