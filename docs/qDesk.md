@@ -47,7 +47,7 @@ qDesk allows to lazy load modules.
 - Drive Lock Fixed
 - Offer "LocalStorage" As A Storage Container On The Web To Stay Signed In
 - [qDesk Messages \[Beta\]](qd-messages-ts)
-- [qDesk Social \[Beta\]](quest-social-js)
+- [qDesk Social \[Beta\]](qd-social-js)
 
 **0.9.4**
 - Encrypt Account
@@ -89,7 +89,7 @@ qDesk allows to lazy load modules.
 - [qDesk Quests \[Beta\]](qd-quest-ts)
 - [qDesk Calendar \[Beta\]](qd-calendar-ts) personal & shared calendars. Add events from other modules on qDesk.
 - [qDesk Messages \[Stable\]](qd-messages-ts)
-- [qDesk Social \[Stable\]](quest-social-js)
+- [qDesk Social \[Stable\]](qd-social-js)
 - [qDesk Apps \[Stable\]](qd-apps-ts)
 - Fork into [Vibenarium](https://github.com/Vibenarium/vibenarium-platform)
 - Third Party Dependencies Audited, Security Issues Fixed

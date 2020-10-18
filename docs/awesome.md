@@ -46,7 +46,7 @@ Awesome list of [Quest Network](https://github.com/QuestNetwork) seed repos, sta
 
 ### Core Packages
 
-* [Quest Network Operating System JS](quest-os-js) - JavaScript Implementation of the Quest Network Operating System. Plug and play solution to build Quest Network, IPFS and Ethereum dApps.
+* [Quest Network Operating System JS](quest-os-js) - JavaScript Implementation of the Quest Network Operating System. Plug And Play Solution To Build Quest Network, IPFS and Ethereum dApps.
 
 * [Quest Network Quorum Module](quest-quorum-js) - JavaScript Implementation of the Quest Network Quorum Protocol.
 
