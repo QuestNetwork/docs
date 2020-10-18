@@ -60,7 +60,7 @@ qDesk allows to lazy load modules.
 
 **0.9.5**
 - [qDesk Games \[Beta\]](qd-games-ts) (for free items)
-- [qDesk Apps \[Beta\]](qd-market-ts) (for free items)
+- [qDesk Apps \[Beta\]](qd-apps-ts) (for free items)
 - More Message Types And Inline Previews
 - Native Audio/Video
 

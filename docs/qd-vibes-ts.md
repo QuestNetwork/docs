@@ -1,4 +1,4 @@
-![Completion 1.0.0](https://img.shields.io/badge/completion%20v1.0.0-1%25-red) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818)  ![Version 0.9.3](https://img.shields.io/badge/version-v0.9.6-blue) ![Sponsors](https://img.shields.io/badge/sponsors-0-red)
+![Completion 1.0.0](https://img.shields.io/badge/completion%20v1.0.0-1%25-red) ![Help Wanted](https://img.shields.io/badge/%20-help--wanted-%23159818)  ![Version 0.9.3](https://img.shields.io/badge/version-v0.9.9-blue) ![Sponsors](https://img.shields.io/badge/sponsors-0-red)
 
 # qDesk Vibes
 
@@ -20,5 +20,5 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 
 # Roadmap
 
-**0.9.6**
+**0.9.9**
 - Basic functionality
