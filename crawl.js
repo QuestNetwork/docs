@@ -8,8 +8,15 @@ async function start(){
   for( let repo of repositories['data']){
     //crawling first repo
     try{
+
       let name = repo['full_name'];
-      let readme = await axios.get('https://raw.githubusercontent.com/'+name+'/master/README.md');
+      let readme = {};
+      try{
+        readme = await axios.get('https://raw.githubusercontent.com/'+name+'/master/README.md');
+      }catch(e){
+        readme = await axios.get('https://raw.githubusercontent.com/'+name+'/main/README.md');
+      }
+
       readme = readme['data'];
       //
       if(readme.replace(new RegExp(/## /, 'g'),'').indexOf(' # ') < 0){
@@ -95,8 +102,13 @@ async function start(){
   console.log('API Sections Parsed & Merged: '+apiPackages.length);
   // console.log(apiReadme);
   fs.writeFileSync('docs/api.md',qOS+'\n'+apiReadme,{encoding:'utf8',flag:'w'});
+  let license = {};
+  try{
+    license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/master/LICENSE');
+  }catch(e){
+    license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/main/LICENSE');
+  }
 
-    let license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/master/LICENSE');
     fs.writeFileSync('docs/license.md',license['data'],{encoding:'utf8',flag:'w'})
 
 
@@ -111,7 +123,13 @@ async function start(){
         // libmodules.push(repo['fullName'].split('/')[1]);
         //check if readme exists
         try{
-          let readme = await axios.get('https://raw.githubusercontent.com/'+repo['full_name']+'/master/README.md');
+          let readme = {};
+          try{
+            readme = await axios.get('https://raw.githubusercontent.com/'+repo['full_name']+'/master/README.md');
+          }catch(e){
+            readme = await axios.get('https://raw.githubusercontent.com/'+repo['full_name']+'/main/README.md');
+          }
+
           if(readme['data'].length > 160){
             sidebar1 += "\n  + ["+repo['full_name'].split('/')[1] + "]("+repo['full_name'].split('/')[1]+")";
           }
