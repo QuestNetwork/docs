@@ -44,6 +44,4 @@
   + [quest-pubsub-js](quest-pubsub-js)
   + [quest-social-js](quest-social-js)
   + [quest-star-go](quest-star-go)
-  + [quest-star-rust](quest-star-rust)
-  + [quest-utilities-js](quest-utilities-js)
  - [License](license.md)
