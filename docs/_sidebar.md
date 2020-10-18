@@ -24,9 +24,9 @@
     - [qD Social](qd-social-ts.md)
     - [qD News](qd-news-ts.md)
     - [qD Markets](qd-market-ts.md)
+    - [qD Vibes](qd-vibes-ts.md)
     - [qD Apps](qd-apps-ts.md)
     - [qD Games](qd-games-ts.md)
-    - [qD Vibes](qd-vibes-ts.md)
     - [qD Calendar](qd-calendar-ts.md)
 
 - Library
