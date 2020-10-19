@@ -6,7 +6,7 @@
 
 qD Calendar is a module for qDesk. It's accessible across qDesk, you can use it with qD Social, qD Messages and other qD modules.
 
-qD Calendar offers the ability to share events and event invitations, as well as to evens publicly posted by peers on the network. qD Calendars is connected to [qDesk Social](qd-social-js) and uses the station supplied by qDesk Social. 
+qD Calendar offers the ability to share events and event invitations, as well as to evens publicly posted by peers on the network. qD Calendar is connected to [qD Social](qd-social-js) and uses the station supplied by qD Social. 
 
 qD Calendar and qDesk Social are modules for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
