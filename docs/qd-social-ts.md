@@ -12,13 +12,13 @@ qD Social offers the ability to share posts and information about yourself and m
 
 qD Social is a module for [qDesk](qDesk). It's accessible across qDesk, you can use it with [qD Messages](qd-messages-ts) and other qDesk modules. It is used to show store information and latest store campaigns on [qD Market](qd-market-ts). 
 
-qD Social is built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
+qD Social is built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
 [qDesk](qDesk) works in the browser, as an Electron on Windows, Mac and Linux and Android using Cordova and makes it possible to build custom, secure and decentralized social networks in less than 20 days.
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. The Quest Network is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
-Use [Quest OS](quest-os-js) in your applications and you can use the underlying channels and data in your own application by booting with [Quest Social JS](quest-social-js).
+Use [qOS](quest-os-js) in your applications and you can use the underlying channels and data in your own application by booting with [Quest Social JS](quest-social-js).
 
 Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
 
