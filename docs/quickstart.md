@@ -9,21 +9,21 @@
 
 We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
 
-We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
-
-[qDesk](qDesk.md) makes it possible to build custom, secure and decentralized social networks in less than 20 days.
+qDesk makes it possible to build custom, secure and decentralized social networks in less than 20 days.
 
 Our quest network aims to allow the creation and (distributed) completion of quests supported by a feature rich decentralized social network.
 
-0.9.5+ allow to connect [qDesk](qDesk.md) Social profiles to Twitter without sharing information with Twitter as an additional layer of verification. It is planned to add passive verification for a custom list of external networks to verify the peer identities.
+0.9.5+ allow to connect qDesk Social profiles to Twitter without sharing information with Twitter as an additional layer of verification. It is planned to add passive verification for a custom list of external networks to verify the peer identities.
 
 1.0.0+ complies with privacy regulations and can be used for confidential information as a production social network for enterprises worldwide.
 
-This app is built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io) and [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/).
+We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. The Quest Network is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
-Look what other people have built with qDesk: [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
+This app is built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/).
 
- [qDesk](qDesk.md) allows to lazy load modules.
+Look what other people have built with qDesk: [Awesome Quest Network dApps](awesome)!
+
+qDesk allows to lazy load modules.
 
 
 # Try it live
