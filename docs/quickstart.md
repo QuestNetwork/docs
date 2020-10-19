@@ -7,7 +7,7 @@
 
 >In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qDesk#troubleshooting) in Settings > IPFS.
 
-We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
+We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [qOS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
 
 qDesk makes it possible to build custom, secure and decentralized social networks in less than 20 days.
 
@@ -19,7 +19,7 @@ Our quest network aims to allow the creation and (distributed) completion of que
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. The Quest Network is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
-This app is built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/).
+This app is built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/).
 
 Look what other people have built with qDesk: [Awesome Quest Network dApps](awesome)!
 
