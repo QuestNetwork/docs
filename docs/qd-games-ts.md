@@ -20,5 +20,5 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 
 # Roadmap
 
-**0.9.6**
+**0.9.5**
 - Basic functionality
