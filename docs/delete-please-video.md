@@ -10,7 +10,7 @@ qDesk Video offers the ability to share videos and explore videos shared by peer
 
 Videos can be offered for free and artists can receive donations. Premium content is purchased using supported wallets. Copyright infringement is reported directly to the artists by free and premium crawlers.
 
-qDesk Video and qDesk Social are modules for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
+qDesk Video and qDesk Social are modules for [qDesk](qDesk) and it's built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
