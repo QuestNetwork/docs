@@ -6,11 +6,11 @@
 
 qD Vibes is a module for qDesk. It's accessible across qDesk, you can use it with [qD Social](qd-social-ts), [qD Messages](qd-messages-ts) and other qD modules.
 
-qD Vibes offers the ability to share music and videos, as well as to explore music and videos shared by peers on the network. 
+qD Vibes offers the ability to share music and videos, as well as to explore music and videos shared by peers on the network.
 
 qD Vibes is connected to [qD Social](qd-social-ts) and uses the station supplied by it.
 
-Music and videos can be offered for free and artists can receive donations. Premium content is purchased using supported wallets. Copyright infringement is reported directly to the artists or their representatives by free and premium crawlers. 
+Music and videos can be offered for free and artists can receive donations. Premium content is purchased using supported wallets. Copyright infringement is reported directly to the artists or their representatives by free and premium crawlers.
 
 qD Vibes and [qD Social](qd-social-ts) are modules for [qDesk](qDesk) and it's built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
