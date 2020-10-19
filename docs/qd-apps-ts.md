@@ -16,16 +16,6 @@ We have chosen Angular/Electron as an example environment because we believe it 
 
 Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
 
-# Commands
-
-**Prepare Package**
-
-``npm run inst`` Removes `package-lock.json` and runs ``npm install``
-
-We added an example ```swarm.json``` to the ```src/app``` folder with an example node to make reproduction easier, but we strongly recommend to use our [Quest CLI](quest-cli) to test and build the app.
-
-Pro Tip: Put a file in your `/bin` that runs the quest-cli like so `node /path/to/quest-cli/index.js` from any folder on your system. It's much nicer!
-
 # Roadmap
 
 **0.9.5**
