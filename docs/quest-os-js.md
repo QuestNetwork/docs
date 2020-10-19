@@ -44,5 +44,6 @@ git clone quest-os-js && cd quest-os-js && git checkout 0.9.4 && cd ..
 # Roadmap
 
 **0.9.5**
+- [Quest Quorum Module](quest-quorum-js)
 - Democratically block or mute peers
 - Faux requests. Send request in channel, wait for response, deliver response as if it was an http request.
