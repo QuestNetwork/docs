@@ -6,9 +6,9 @@
 
 qDesk Apps is a module for [qDesk](https://qDesk.org). It's accessible across qDesk, you can use it with qDesk Messages, qDesk Social and other qDesk modules. This module allows peers on the network to exchange, discuss, categorize and rate apps democratically.
 
-Use [Quest OS](quest-os-js) in your applications and you can use the underlying channels and data in your own application by booting with [Quest News JS](quest-news-js).
+Use [qOS](quest-os-js) in your applications and you can use the underlying channels and data in your own application by booting with [Quest News JS](quest-news-js).
 
-qDesk Apps allows users to share apps hosted on the [Interplanetary Filesystem](https://ipfs.io). Starting with our last patch for the rewrite 0.9.9+ premium app licenses can be purchased with Ethereum. qDesk Apps is a module for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
+qDesk Apps allows users to share apps hosted on the [Interplanetary Filesystem](https://ipfs.io). Starting with our last patch for the rewrite 0.9.9+ premium app licenses can be purchased with Ethereum. qDesk Apps is a module for [qDesk](qDesk) and it's built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 

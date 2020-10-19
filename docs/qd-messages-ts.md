@@ -6,9 +6,9 @@
 
 # Description
 
-qDesk Messages is on track to become the first fully featured, cross-platform, publicly auditable, decentralized, real-time, dag based end-to-end encrypted messenger with a feature to exchange goods and services and send payments. 
+qDesk Messages is on track to become the first fully featured, cross-platform, publicly auditable, decentralized, real-time, dag based end-to-end encrypted messenger with a feature to exchange goods and services and send payments.
 
-In this module you can create end-to-end encrypted channels, organize them in folders, share the folder structure with your invite, control the channels you own, participate in self-owned channels. Have private conversations or public channel discussions. Use Audio/Video in 0.9.5+ for groups or private conversations. Ban and report users in 0.9.5+. Alias and profile picture are linked from [qD Social](qd-social-ts). Peers can nickname participants and override the information that references other peers social profiles. 
+In this module you can create end-to-end encrypted channels, organize them in folders, share the folder structure with your invite, control the channels you own, participate in self-owned channels. Have private conversations or public channel discussions. Use Audio/Video in 0.9.5+ for groups or private conversations. Ban and report users in 0.9.5+. Alias and profile picture are linked from [qD Social](qd-social-ts). Peers can nickname participants and override the information that references other peers social profiles.
 
 In 0.9.4 message histories are session only. In 0.9.5+ the message history is synced based on a quorum consensus scheme which creates an always online experience and lets peers view messages they missed when they were offline.
 
@@ -113,7 +113,7 @@ Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/aw
 - Encrypted P2P File Transfer (End-To-End AES-256-CBC, Shared Via 4096 Bit OAEP)
 - AES Encrypt Invite Tokens
 - Inline Preview For Media Files And Links (images, videos, etc)
-- Magic Folders 
+- Magic Folders
 - Stickers
 - GIFs
 
