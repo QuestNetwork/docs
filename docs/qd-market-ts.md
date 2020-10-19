@@ -6,9 +6,9 @@
 
 qD Market is a module for [qDesk](https://qDesk.org). It's accessible across qDesk, you can use it with [qD Messages](qd-messages-ts), [qD Social](qd-social-ts) and other qDesk modules. This module allows peers on the network to exchange physical goods, virtual goods and allows the scheduled booking of services.
 
-qD Market is a protocol as well and if you are using [qOS](quest-os-js) in your applications, you can use the underlying channels and data in your own application by booting with [Quest Social JS](quest-market-js).
+qD Market is a protocol as well and if you are using [Quest OS](quest-os-js) in your applications, you can use the underlying channels and data in your own application by booting with [Quest Social JS](quest-market-js).
 
-qD Market offers the ability to offer your products and services commission free on a local and global level. You can have several stores, stores can be set to private or linked to a social profile. qD Market is a module for [qDesk](qDesk) and it's built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
+qD Market offers the ability to offer your products and services commission free on a local and global level. You can have several stores, stores can be set to private or linked to a social profile. qD Market is a module for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
