@@ -4,7 +4,7 @@
 
 # Description
 
-An Angular compatible NodeJS library for the use with [Quest OS](quest-os-js) that allows to create and participate in quests on the network.
+An Angular compatible NodeJS library for the use with [qOS](quest-os-js) that allows to create and participate in quests on the network.
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
