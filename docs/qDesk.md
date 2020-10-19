@@ -52,13 +52,14 @@ qDesk allows to lazy load modules.
 **0.9.4**
 - Encrypt Account
 - Change Swarm Peers In The Browser
-- [Quest Network Coral Process](quest-coral-js)
+- [Quest Coral Module](quest-coral-js)
 - Additional Peering, option to pull from GitHub.
 - Module Upgrades
 
 # Roadmap
 
 **0.9.5**
+- [Quest Quorum Module](quest-quorum-js)
 - [qDesk Games \[Beta\]](qd-games-ts) (for free items)
 - [qDesk Apps \[Beta\]](qd-apps-ts) (for free items)
 - More Message Types And Inline Previews
