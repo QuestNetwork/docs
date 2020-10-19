@@ -16,7 +16,7 @@ Our quest network aims to allow the creation and (distributed) completion of que
 
 0.9.5+ allow to connect qDesk Social profiles to Twitter without sharing information with Twitter as an additional layer of verification. It is planned to add passive verification for a custom list of external networks to verify the peer identities.
 
-1.0.0+ complies with privacy regulations and can be used for confidential information as a production social network worldwide. 
+1.0.0+ complies with privacy regulations and can be used for confidential information as a production social network worldwide.
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. The Quest Network is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
@@ -84,7 +84,7 @@ qDesk allows to lazy load modules.
 
 **0.9.9**
 - Additional Patch
-- [qD Vibes \[Beta\]](qd-vibes-ts) 
+- [qD Vibes \[Beta\]](qd-vibes-ts)
 
 **1.0.0**
 - [qD Quests \[Beta\]](qd-quest-ts)
@@ -99,7 +99,7 @@ qDesk allows to lazy load modules.
 **2.0.0**
 - [qD Calendar \[Stable\]](qd-calendar-ts)
 - [qD Market \[Stable\]](qd-market-ts)
-- [qD Vibes \[Stable\]](qd-vibes-ts) 
+- [qD Vibes \[Stable\]](qd-vibes-ts)
 - Ethereum Payment Integration Finalized
 
 **3.0.0**
@@ -118,4 +118,3 @@ qDesk allows to lazy load modules.
 >Solution: qDesk ``^0.9.4`` go to ``Settings > IPFS`` and either download an example swarm peer list from GitHub (https://github.com/QuestNetwork/qDesk/blob/0.9.4/src/app/swarm.json) or enter your own.
 
 If your problem is not solved here, please file an [issue](https://github.com/QuestNetwork/qDesk/issues/new) on GitHub.
-
