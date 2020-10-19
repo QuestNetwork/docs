@@ -12,7 +12,7 @@ qD Social offers the ability to share posts and information about yourself and m
 
 1.0.0+ complies with privacy regulations and can be used for confidential information as a production social network for enterprises worldwide.
 
-qD Social is a module for [qDesk](qDesk) and it's built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
+qD Social is built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/), [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/), and [qDesk](qDesk), our example app based on [Angular10](https://angular.io/).
 
 [qDesk](qDesk) works in the browser, as an Electron on Windows, Mac and Linux and Android using Cordova and makes it possible to build custom, secure and decentralized social networks in less than 20 days.
 
