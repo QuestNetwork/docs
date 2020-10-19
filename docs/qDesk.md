@@ -8,7 +8,7 @@
 >In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](#troubleshooting) in Settings > IPFS.
 
 # Description
-qDesk is an example app for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
+qDesk is an example app for our JavaScript p2p library [qOS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
 
 qDesk makes it possible to build custom, secure and decentralized social networks in less than 20 days.
 
@@ -20,7 +20,7 @@ Our quest network aims to allow the creation and (distributed) completion of que
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. The Quest Network is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
-This app is built on [Quest OS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/).
+This app is built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/).
 
 Look what other people have built with qDesk: [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
 
@@ -46,8 +46,8 @@ qDesk allows to lazy load modules.
 - App is now modular, makes building add-ons easy
 - Drive Lock Fixed
 - Offer "LocalStorage" As A Storage Container On The Web To Stay Signed In
-- [qDesk Messages \[Beta\]](qd-messages-ts)
-- [qDesk Social \[Beta\]](qd-social-js)
+- [qD Messages \[Beta\]](qd-messages-ts)
+- [qD Social \[Beta\]](qd-social-js)
 
 **0.9.4**
 - Encrypt Account
@@ -60,15 +60,15 @@ qDesk allows to lazy load modules.
 
 **0.9.5**
 - [Quest Quorum Module](quest-quorum-js)
-- [qDesk Games \[Beta\]](qd-games-ts) (for free items)
-- [qDesk Apps \[Beta\]](qd-apps-ts) (for free items)
+- [qD Games \[Beta\]](qd-games-ts) (for free items)
+- [qD Apps \[Beta\]](qd-apps-ts) (for free items)
 - More Message Types And Inline Previews
 - Native Audio/Video
 
 **0.9.6**
-- [qDesk Apps \[Beta\]](qd-apps-ts) (for paid items)
-- [qDesk Games \[Beta\]](qd-games-ts) (for paid items)
-- [qDesk Market \[Beta\]](qd-market-ts)
+- [qD Apps \[Beta\]](qd-apps-ts) (for paid items)
+- [qD Games \[Beta\]](qd-games-ts) (for paid items)
+- [qD Market \[Beta\]](qd-market-ts)
 - Ethereum Payment Integration Beta
 
 **0.9.7**
@@ -84,27 +84,27 @@ qDesk allows to lazy load modules.
 
 **0.9.9**
 - Additional Patch
-- [qDesk Vibes \[Beta\]](qd-vibes-ts) 
+- [qD Vibes \[Beta\]](qd-vibes-ts) 
 
 **1.0.0**
-- [qDesk Quests \[Beta\]](qd-quest-ts)
-- [qDesk Calendar \[Beta\]](qd-calendar-ts) personal & shared calendars. Add events from other modules on qDesk.
-- [qDesk Messages \[Stable\]](qd-messages-ts)
-- [qDesk Social \[Stable\]](qd-social-js)
-- [qDesk Apps \[Stable\]](qd-apps-ts)
+- [qD Quests \[Beta\]](qd-quest-ts)
+- [qD Calendar \[Beta\]](qd-calendar-ts) personal & shared calendars. Add events from other modules on qDesk.
+- [qD Messages \[Stable\]](qd-messages-ts)
+- [qD Social \[Stable\]](qd-social-js)
+- [qD Apps \[Stable\]](qd-apps-ts)
 - Fork into [Vibenarium](https://github.com/Vibenarium/vibenarium-platform)
 - Third Party Dependencies Audited, Security Issues Fixed
 - Complies with global privacy laws
 
 **2.0.0**
-- [qDesk Calendar \[Stable\]](qd-calendar-ts)
-- [qDesk Market \[Stable\]](qd-market-ts)
-- [qDesk Vibes \[Stable\]](qd-vibes-ts) 
+- [qD Calendar \[Stable\]](qd-calendar-ts)
+- [qD Market \[Stable\]](qd-market-ts)
+- [qD Vibes \[Stable\]](qd-vibes-ts) 
 - Ethereum Payment Integration Finalized
 
 **3.0.0**
-- [qDesk Quests \[Stable\]](qd-quest-ts)
-- [qDesk Games \[Stable\]](qd-games-ts)
+- [qD Quests \[Stable\]](qd-quest-ts)
+- [qD Games \[Stable\]](qd-games-ts)
 
 **4.0.0**
 - [OpenAI GPT3](https://en.wikipedia.org/wiki/GPT-3) Integration For Suggestions, AutoRespond And Completion
