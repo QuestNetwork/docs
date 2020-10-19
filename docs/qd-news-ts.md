@@ -16,7 +16,7 @@ We have chosen Angular/Electron as an example environment because we believe it 
 
 Check out other [Awesome Quest Network dApps](https://github.com/QuestNetwork/awesome/blob/master/README.md)!
 
-# Features
+# Roadmap
 
 **0.9.7**
 - Basic functionality
