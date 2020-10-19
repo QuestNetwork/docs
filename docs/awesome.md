@@ -14,11 +14,11 @@ Awesome list of [Quest Network](https://github.com/QuestNetwork) seed repos, sta
 
 ### Apps
 
-* [qDesk Apps](qd-apps-ts) - Peer-to-peer App Publishing
+* [qDesk Apps](qd-apps-ts) - Peer-to-peer App Publishing & Crawler
 
 ### Games
 
-* [qDesk Games](qd-games-ts) - Peer-to-peer Distribution & Gaming Platform
+* [qDesk Games](qd-games-ts) - Peer-to-peer Distribution, Gaming Platform & Crawler
 
 ### Scheduling
 
@@ -30,7 +30,7 @@ Awesome list of [Quest Network](https://github.com/QuestNetwork) seed repos, sta
 
 ### Streaming
 
-* [qDesk Vibes](qd-vibes-ts) - Decentralized Streaming Service & Advanced Media Distribution
+* [qDesk Vibes](qd-vibes-ts) - Decentralized Streaming Service, Advanced Media Distribution & Crawler
 
 ### News
 
