@@ -338,7 +338,7 @@ let results = <os>.bee.comb.search('/my/path');
 Returns the reference object.
 
 ``
-let latestRef = <os>.coral.dag.set('/my/path',unencrytpedObject,{ storagePath: '/archive/social/timeline/transaction' });
+let latestRef = <os>.ocean.coral.dag.set('/my/path',unencrytpedObject,{ storagePath: '/archive/social/timeline/transaction' });
 ``
 
 ### async add(path, unencrytpedObject,storagePath)
@@ -347,7 +347,7 @@ let latestRef = <os>.coral.dag.set('/my/path',unencrytpedObject,{ storagePath: '
 Returns the reference object.
 
 ``
-let latestRef = <os>.coral.dag.add('/my/path',unencrytpedObject,{ storagePath: '/archive/social/timeline/transaction' });
+let latestRef = <os>.ocean.coral.dag.add('/my/path',unencrytpedObject,{ storagePath: '/archive/social/timeline/transaction' });
 ``
 
 ### async get(pathOrCid, config = {})
@@ -356,7 +356,7 @@ let latestRef = <os>.coral.dag.add('/my/path',unencrytpedObject,{ storagePath: '
 
 Returns the decrypted object or array of objects.
 ``
-let array = <os>.coral.dag.get('/my/path',{ limit: 5 });
+let array = <os>.ocean.coral.dag.get('/my/path',{ limit: 5 });
 ``
 # crypto
 
