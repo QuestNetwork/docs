@@ -7,7 +7,7 @@
 
 >In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qDesk#troubleshooting) in Settings > IPFS.
 
-We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules like  [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts), as well as the upcoming  [qD Markets](qd-market-ts), [qD News](qd-news-ts) and [qD Games](qd-games-ts).
+We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [Quest OS](quest-os-js) with cool open source modules like  [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts), as well as the upcoming  [qD Vibes](qd-market-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts) and [qD Games](qd-games-ts).
 
 We have chosen Angular/Electron as an example environment because we believe it offers the best accessibility for developers coming from any other language/framework. It is already being used in Python on PyQt5 and we aim to provide the underlying library in Go and wherever possible in Rust as well.
 
