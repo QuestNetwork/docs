@@ -40,6 +40,10 @@ git clone quest-os-js && cd quest-os-js && git checkout 0.9.4 && cd ..
 **0.9.4**
 - Change Peer Configuration in browser, Electron and on NodeJS
 - Module Upgrades
+- Password
+
+**0.9.5**
+- Account Name
 
 # Roadmap
 

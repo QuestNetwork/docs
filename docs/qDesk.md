@@ -56,6 +56,9 @@ qDesk allows to lazy load modules.
 - Additional Peering, option to pull from GitHub.
 - Module Upgrades
 
+**0.9.5**
+- Account Name For Additional Security & Hashing
+
 # Roadmap
 
 **0.9.5**
