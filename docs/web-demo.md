@@ -18,7 +18,7 @@ http://ipfs.infura.io/ipfs/QmZNvMbTPCEW1vebsEc5L2dx18PeYCKgwP5oMCVREkmr3p/
 
 **0.9.3-rc1**
 
-<img src='https://github.com/QuestNetwork/qDesk/raw/0.9.3-rc1/doc/images/pinatalink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qDesk/raw/0.9.3-rc1/doc/images/cloudflarelink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qDesk/raw/0.9.3-rc1/doc/images/ipfsiolink.png?raw=true' width=25%>
+<img src='https://github.com/QuestNetwork/qD/raw/0.9.3-rc1/doc/images/pinatalink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qD/raw/0.9.3-rc1/doc/images/cloudflarelink.png?raw=true' width=25%> <img src='https://github.com/QuestNetwork/qD/raw/0.9.3-rc1/doc/images/ipfsiolink.png?raw=true' width=25%>
 
 https://gateway.pinata.cloud/ipfs/QmTSuYWm2LXyYndEq2W62raSpjjUioSoSW3otSJRFQ1wra/
 

@@ -58,7 +58,7 @@ async function start(){
         if( p.indexOf('Manual & Documentation') != 0 && p.indexOf('Download') != 0 && p.indexOf('Web Demo') != 0 && p.indexOf('Support Us') != 0 && p.indexOf('License') != 0 && p.indexOf('Development') != 0 && p.indexOf('Lead Maintainer') != 0 && p.indexOf('API') != 0 && p.indexOf('Security') != 0){
           result.push(p);
         }
-        else if(name == 'QuestNetwork/qDesk'){
+        else if(name == 'QuestNetwork/qD'){
           emulatedSection = "# "+p;
           let headerToFileName = p.split('\n')[0].toLowerCase().replace(new RegExp(/ /, 'g'),'-');
           fs.writeFileSync('docs/'+headerToFileName+'.md',emulatedSection,{encoding:'utf8',flag:'w'});
@@ -104,9 +104,9 @@ async function start(){
   fs.writeFileSync('docs/api.md',qOS+'\n'+apiReadme,{encoding:'utf8',flag:'w'});
   let license = {};
   try{
-    license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/master/LICENSE');
+    license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qD/master/LICENSE');
   }catch(e){
-    license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qDesk/main/LICENSE');
+    license = await axios.get('https://raw.githubusercontent.com/QuestNetwork/qD/main/LICENSE');
   }
 
     fs.writeFileSync('docs/license.md',license['data'],{encoding:'utf8',flag:'w'})

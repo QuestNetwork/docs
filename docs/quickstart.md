@@ -5,15 +5,15 @@
 
 ![Screenshot](https://github.com/QuestNetwork/qd-messages-ts/raw/0.9.3/doc/images/0.9.3.png?raw=true)
 
->In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qDesk#troubleshooting) in Settings > IPFS.
+>In case you are experiencing connectivity issues, on the app you can try using different [star node configurations](qD#troubleshooting) in Settings > IPFS.
 
-We are using [qDesk](qDesk.md) as an example application for our JavaScript p2p library [qOS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
+We are using [qD](qD.md) as an example application for our JavaScript p2p library [qOS](quest-os-js) with cool open source modules such as [qD Messages](qd-messages-ts) and [qD Social](qd-social-ts) and the upcoming  [qD Vibes](qd-vibes-ts), [qD Markets](qd-market-ts), [qD News](qd-news-ts), [qD Apps](qd-apps-ts), [qD Games](qd-games-ts) and [qD Calendar](qd-calendar-ts).
 
-qDesk makes it possible to build custom, secure and decentralized social networks in less than 20 days.
+qD makes it possible to build custom, secure and decentralized social networks in less than 20 days.
 
 Our quest network aims to allow the creation and (distributed) completion of quests supported by a feature rich decentralized social network.
 
-0.9.5+ allow to connect qDesk Social profiles to Twitter without sharing information with Twitter as an additional layer of verification. It is planned to add passive verification for a custom list of external networks to verify the peer identities.
+0.9.5+ allow to connect qD Social profiles to Twitter without sharing information with Twitter as an additional layer of verification. It is planned to add passive verification for a custom list of external networks to verify the peer identities.
 
 1.0.0+ complies with privacy regulations and can be used for confidential information as a production social network worldwide.
 
@@ -21,9 +21,9 @@ We have chosen Angular/Electron as an example environment because we believe it 
 
 This app is built on [qOS](quest-os-js) which makes use of the [Interplanetary Filesystem](https://ipfs.io), [IPFS GossipSub](https://blog.ipfs.io/2020-05-20-gossipsub-v1.1/) and [IPFS DAGs](https://docs.ipfs.io/concepts/merkle-dag/).
 
-Look what other people have built with qDesk: [Awesome Quest Network dApps](awesome)!
+Look what other people have built with qD: [Awesome Quest Network dApps](awesome)!
 
-qDesk allows to lazy load modules.
+qD allows to lazy load modules.
 
 
 # Try it live
@@ -40,4 +40,4 @@ See our [Developer](development.md) section to start using and extending the Que
 
 # Troubleshooting
 
-In case of errors or faults, please see the [Troubleshooting](qDesk#troubleshooting) section for qDesk.
+In case of errors or faults, please see the [Troubleshooting](qD#troubleshooting) section for qD.

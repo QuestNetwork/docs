@@ -1,28 +1,28 @@
 # Development
 
-## Planning 
+## Planning
 
 See our [Kanban](https://github.com/orgs/QuestNetwork/projects/1) for the development of 0.9.5, feel free to add or pick up features!
 
 ## Prerequisites
 
-1.) 
+1.)
 
 Clone & Checkout essential repositories:
 ```
-git clone qd-social-ts && git clone qd-messages-ts && git clone qDesk && cd qd-social-ts   && git checkout 0.9.4 && cd ..  &&  cd qd-messages-ts   && git checkout 0.9.4 && cd ..  &&  cd qDesk   && git checkout 0.9.4 && cd ..
+git clone qd-social-ts && git clone qd-messages-ts && git clone qD && cd qd-social-ts   && git checkout 0.9.4 && cd ..  &&  cd qd-messages-ts   && git checkout 0.9.4 && cd ..  &&  cd qD   && git checkout 0.9.4 && cd ..
 ```
 
-OR 
+OR
 
 Clone & Checkout all repositories on the latest dev branch:
-``` 
-git clone qDesk && cd qDesk && git checkout 0.9.5-dev && npm run q-dev && cd ..
+```
+git clone qD && cd qD && git checkout 0.9.5-dev && npm run q-dev && cd ..
 ````
 
-2.) Install Dependencies & Enter qDesk Repository:
+2.) Install Dependencies & Enter qD Repository:
 ```
-cd quest-utilities-js && npm install && cd .. && cd quest-crypto-js && npm install && cd .. && cd quest-os-js && npm install && cd .. && cd qd-social-ts && npm run inst && cd .. && cd qd-messages-ts && npm run inst && cd .. && cd qDesk && npm run inst
+cd quest-utilities-js && npm install && cd .. && cd quest-crypto-js && npm install && cd .. && cd quest-os-js && npm install && cd .. && cd qd-social-ts && npm run inst && cd .. && cd qd-messages-ts && npm run inst && cd .. && cd qD && npm run inst
 ```
 
 ## Commands
@@ -40,7 +40,7 @@ To The same directory you're cloning this repository to.
 **Build For Mac**
 ```
 sed -i 's/"@questnetwork\/q-desk"/"q-desk"/g' package.json
-&& npm run mac && 
+&& npm run mac &&
 sed -i  's/"q-desk"/"@questnetwork\/q-desk"/g'  package.json
 ```
 Builds MacOS DMG and .app files to ``dist/`` and ``dist/mac``
@@ -80,8 +80,6 @@ System Requirements: **Memory** 3.75GB **Storage** 6GB **NodeJS** 14 **NPM** 6 *
 
 If you have trouble getting the directory discovered by gateways, you can try ```./ipfs-propagate.sh``` from the root of this repository.
 Keep in mind that the bundled web application is >14MB alone without assets, please be patient until we have a preloader.
-
-
 
 
 We added an example ```swarm.json``` to the ```src/app``` folder with an example node to make reproduction easier, but we strongly recommend to use our [Quest CLI](quest-cli) to test and build the app.

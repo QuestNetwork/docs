@@ -16,7 +16,7 @@
 
 - Applications
 
-  - [qDesk](qDesk.md)
+  - [qD](qD.md)
 
 - Modules
 
