@@ -77,6 +77,7 @@ qDesk allows to lazy load modules.
 
 **0.9.7**
 - [qDesk News \[Beta\]](qd-news-ts)
+- Quest Worker To Render `.blend` Files And Earn Rewards
 - Add Custom Themes By Pasting CSS Into The Built-In Theme Editor
 - Import/Export Themes
 - Light Mode

@@ -51,3 +51,9 @@ git clone quest-os-js && cd quest-os-js && git checkout 0.9.4 && cd ..
 - [Quest Quorum Module](quest-quorum-js)
 - Democratically block or mute peers
 - Faux requests. Send request in channel, wait for response, deliver response as if it was an http request.
+
+**0.9.6**
+- Ethereum Payment Integration Beta
+
+**0.9.7**
+- Quest Worker To Render `.blend` Files And Earn Rewards
